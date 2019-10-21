@@ -1,0 +1,7 @@
+<FilesMatch ".(svg|jpg|jpeg|png|gif|js|css)$">
+  FileETag None
+  Header set Cache-Control "max-age=1209600, public"
+  Header unset Pragma
+  Header unset ETag
+  Header unset Last-Modified
+</FilesMatch>
